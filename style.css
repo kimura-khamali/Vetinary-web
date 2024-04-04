@@ -31,7 +31,6 @@
   .navbar a {
     color: black;
     text-decoration: none;
-    /* text-decoration-color: blue; */
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     font-weight: bold;
@@ -48,13 +47,12 @@
   }
 
   .mainimg1{
-    width: 90px;
-    height: 10vh;
+    width: 70px;
+    height: 5vh;
   }
   .mainimg2 {
     width: 50%;
-    height: 80vh;
-    /* object-fit: cover;*/
+    height: 50vh;
   } 
   
   .button {
@@ -91,7 +89,7 @@
 
   .sub3 {
     display: flex;
-    gap: 50%;
+    gap: 40%;
   }
 
   .subimg {
@@ -113,6 +111,7 @@
 
   .alignstars {
     display: flex;
+    gap: 10px;
   }
 
 .pple {
@@ -120,8 +119,10 @@
     gap: 20%;
 }
 
-p {
-    color: grey;
+
+
+.h1 {
+    text-align: center;
 }
 
 .img {
@@ -146,102 +147,7 @@ p {
        background-color: white;
     }
     
-    /* .logo {
-        margin-right: 10%;
-        padding: 30px 40px;
-        width: 10%;
-        height: 10%;
-    }
-     */
     
-    /* .navbar ul {
-        list-style-type: none;
-        padding: 0;
-        margin: 10px;
-        /* display: flex; 
-        flex-wrap: wrap;
-      }
-      
-      .navbar li {
-        margin-left: 0px;
-      }
-      
-      .navbar a {
-        color: black;
-        text-decoration: none;
-        /* text-decoration-color: blue; 
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 8px;
-        font-weight: bold;
-      } */
-    
-      /* .main {
-        display: flex;
-        gap: 20%;
-      }
-    
-      .main2{
-        display: flex;
-        gap: 20%;
-      }
-    
-      .mainimg1{
-        width: 90px;
-        height: 10vh;
-      }
-      .mainimg2 {
-        width: 50%;
-        height: 80vh;
-        /* object-fit: cover;
-      } */
-      
-     /* .sub {
-        display: flex;
-        gap: 20%;
-      }
-    
-      .sub1 {
-        display: grid;
-        grid-template-rows: table-row;
-        grid-template-columns: repeat(3,1fr);
-        grid-gap: 20%;
-      }
-    
-      .sub2 {
-        display: flex;
-        gap: 30%;
-        margin: 10%;
-      }
-    
-      .sub3 {
-        display: flex;
-        gap: 50%;
-      }
-    
-      .subimg1 {
-        width: 160%;
-        height: 40vh;
-      }
-    
-      .interests {
-        display: flex;
-        gap: 20%;
-      }
-    
-    .pple {
-        display: flex;
-        gap: 20%;
-    }
-    
-    .img {
-        width: 100%;
-        height: 20vh;
-    }
-      .footer {
-        display: flex;
-        gap: 20%;
-        
-      } */
   }
 
 
